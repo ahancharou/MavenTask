@@ -4,9 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>MavenTask</groupId>
+    <groupId>com.mentoring.MavenTask</groupId>
     <artifactId>MavenTask</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Parent</module>
+        <module>DAO</module>
+        <module>Business-logic</module>
+        <module>UI</module>
+    </modules>
+
+    <packaging>pom</packaging>
+    <name>MavenTask</name>
 
 
 </project>

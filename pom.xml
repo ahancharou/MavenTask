@@ -31,19 +31,3 @@
 
 
 </project>
-
-<!--
-        Create executable multi-module project with the following structure:
-
-        1)      DAO (jar)
-
-        2)      Business Logic (war)
-
-        3)      UI (Web) or command line (war)
-
-        Make compliable and deployable to Tomcat. In addition to that, I recommend to apply unit tests.
-
-
-http://stackoverflow.com/questions/17649436/estructuration-of-multi-module-project-how-to-packaging-modules
-
--->
